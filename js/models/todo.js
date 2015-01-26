@@ -1,5 +1,6 @@
 var app = app || {};
 
+// Creates todo model within app
 app.Todo = Backbone.Model.extend({
 
   // Todo is set with a default title and completion status
