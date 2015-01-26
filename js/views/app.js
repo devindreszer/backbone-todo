@@ -107,7 +107,7 @@ app.AppView = Backbone.View.extend({
 
   // Calls the filterOne method on each todo
   filterAll: function() {
-    app.Todos.each(this.addOne, this);
+    app.Todos.each(this.filterOne, this);
   },
 
   // generates the attributes for the new todo based on the user input
